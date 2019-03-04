@@ -1,0 +1,6 @@
+[Unit]
+Description=Run snek scheduler every minute
+
+[Timer]
+OnCalendar=*:0/1
+

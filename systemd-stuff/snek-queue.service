@@ -1,0 +1,10 @@
+[Unit]
+Description=Snek Queue Listener
+
+[Service]
+ExecStart=/usr/bin/php artisan queue:listen
+WorkingDirectory=/home/dom5snek/snek
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

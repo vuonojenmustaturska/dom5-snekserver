@@ -1,0 +1,6 @@
+[Unit]
+Description=Run SnekServer scheduler
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/php /home/dom5snek/snek/artisan schedule:run

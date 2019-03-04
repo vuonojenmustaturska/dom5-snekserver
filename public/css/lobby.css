@@ -1,0 +1,16 @@
+.nation-defeated {
+	background-color: lightgray;
+    webkit-filter: grayscale(1);
+}
+
+.nation-pending {
+	border-color: red;
+}
+
+.nation-played {
+	border-color: green;
+}
+
+.nation-partial {
+	border-color: orange;
+}
